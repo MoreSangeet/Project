@@ -1,4 +1,4 @@
-# Python_Project
+# Project
 This is PYTHON project on Diwali Sales Data.
 
 PROJECT LEARNINGS
