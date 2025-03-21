@@ -161,4 +161,18 @@ From the analysis, we concluded that:
 
 * Married women in the age group 26-35 years from states like Uttar Pradesh, Maharashtra, and Karnataka working in sectors like IT, Healthcare, and Aviation are more likely to purchase products, particularly from Food, Clothing, and Electronics categories.
 
-This analysis can help businesses optimize inventory, target the right customer segments, and improve marketing strategies to boost sales.
+This analysis can help businesses optimize inventory, target the right customer segments, and improve marketing strategies to boost sales.  
+
+--- 
+
+## 📌 **Project Learnings**  
+
+* Data cleaning and manipulation
+* Exploratory data analysis (EDA) using pandas, matplotlib, and seaborn libraries
+* Improved customer experience by identifying potential customers across different states, occupation, gender, and age groups
+* Improved sales by identifying most selling product categories and products, which can help to plan inventory and hence meet the demands.
+
+---
+
+Thank you for visiting my project! I hope the analysis gives you valuable insights into consumer behavior and sales trends during the Diwali season. If you found this project helpful or interesting, feel free to star it ⭐ and leave a comment. Happy learning! 🙌
+
