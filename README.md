@@ -4,6 +4,11 @@ Welcome to the **Diwali Sales Data Analysis** project! This Python project focus
 
 ---
 
+**Dataset Overview**  
+This project uses a Diwali Sales Data stored in a CSV file. The dataset contains various customer and sales-related details, which are crucial for analyzing customer behavior and making business decisions.
+
+---
+
 ## 📚 **Libraries Used**
 
 We’ve used the following Python libraries for data manipulation, visualization, and analysis:
@@ -16,20 +21,22 @@ import seaborn as sns           # For advanced data visualization
 %matplotlib inline
 ```
 
+---
+
 ## 📥 **Data Import and Preparation**
 We start by importing the Diwali sales data from a CSV file and then perform various preprocessing tasks:
 
 ```python
 # Import CSV file
 df = pd.read_csv(r"C:\Users\sangit\Downloads\Python_Diwali_Sales_Analysis\Diwali Sales Data.csv", encoding='unicode_escape')
-```
 
-##  **View dataset dimensions and first few records**
-```python
+## View dataset dimensions and first few records**
 df.shape  # Output: (11251, 15)
 df.head()  # Preview the first 5 rows of the dataset
 ```
 The dataset contains 15 columns and 11,251 rows with details like user ID, product information, gender, age group, marital status, and purchase details.
+
+---
 
 ## 🧹 **Data Cleaning and Transformation**
 We clean the data by:
@@ -50,6 +57,9 @@ df.dropna(inplace=True)
 # Convert 'Amount' to integer type
 df['Amount'] = df['Amount'].astype('int')
 ```
+
+---
+
 ## 🔎 **Data Exploration**
 **1. General Statistics**  
 
@@ -135,6 +145,8 @@ sns.barplot(data=df.groupby(['Product_Category'], as_index=False)['Amount'].sum(
 **Insights:**
 
 * Food, Clothing, and Electronics are the most popular categories.  
+
+---
 
 ## 🎯 **Key Insights & Conclusion**
 **Project Learnings**  
